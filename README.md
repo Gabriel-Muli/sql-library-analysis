@@ -1,4 +1,11 @@
 # 📚 SQL Library Management System  
+## 📸 Project Preview  
+![Library cover](https://github.com/Gabriel-Muli/sql-library-analysis/blob/main/library.png)
+
+---
+## 🗂️ Entity Relationship Diagram (ERD)  
+![Library ERD](https://github.com/Gabriel-Muli/sql-library-analysis/blob/main/erd.png)
+---
 
 **Project Title**: Library Management System   
 **Database**: `library_db`  
@@ -8,6 +15,7 @@ This project showcases the development of a **Library Management System** using 
 ---
 
 ## 🎯 Objectives  
+- **Data Preparation & Exploration:**:  Leverage Python (Pandas) for preprocessing (handling missing values, formatting dates, and normalizing text fields) to ensure compatibility and seamless integration with MySQL Workbench.
 - **Set up the Database**: Create and populate the database with tables for branches, employees, members, books, issued status, and return status.  
 - **CRUD Operations**: Perform Create, Read, Update, and Delete operations.  
 - **CTAS (Create Table As Select)**: Generate summary tables based on query results.  
@@ -183,7 +191,7 @@ return_book_isbn VARCHAR(5)
 select*from issued_status
 WHERE issued_id='IS101' OR issued_id='IS103' OR issued_id='IS105';
 ```
-- The data is imported using import wizard 
+- The data is imported using MySQL Workbench import wizard 
 # SQL queries 
 1) **Insert 3 new records in the books table**
 ```sql
@@ -502,4 +510,5 @@ This project demonstrates end-to-end SQL skills:
 It provides a strong foundation in **database management and data-driven insights**
 
 ---
+
 👨‍💻 **Author**: Gabriel Ian Muli Mwema
